@@ -44,6 +44,7 @@ class MyArray{
     }
 }
 
+//Test:
 $myArray = new MyArray();
 
 $myArray->push(12);
