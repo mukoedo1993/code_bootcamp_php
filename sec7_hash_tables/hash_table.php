@@ -18,10 +18,12 @@ function utf8_char_code_at($str, $index)
 class HashTable{
     public $data;
     function __construct($size){
+
+        //bucket's numbers:
         $this->data = new SplFixedArray($size); //To simulate a C-style array here.
     }
 
-    function _hash($key) {
+    private function _hash($key) {
         $hash = 0;
         /*
         We are just looping thru the key, so we do not think it as
@@ -77,10 +79,26 @@ class HashTable{
         }
     }
 
+    function keys() {
+        $keysArray = [];
+        if($this->data == null){
+            return null;
+        }
+        for($i = 0; $i < sizeof($this->data);$i++){
+            if(($this->data[$i])!= (null)) {
+                print_r($this->data[$i]);
+                foreach($this->data[$i] as $key1 => $value1){
+                array_push($keysArray, $key1);}
+            }
+        }
+        return $keysArray;
+    }
+
 };
 
 $myHashTable = new HashTable(50);
-($myHashTable->_hash('grapes'));
+
 $myHashTable->set('grapes', 10000);
 $myHashTable->set('apples', 54);
 echo "\nLine 75".$myHashTable->get('grapes');
+print_r($myHashTable->keys());
