@@ -5,5 +5,5 @@
 ### C++ , Javascript.
 
 
-#### leetcode categories:
+#### leetcode categories from <a href="https://zxi.mytechroad.com/blog/">huahua's blog</a>:
 https://zxi.mytechroad.com/blog/leetcode-problem-categories/
