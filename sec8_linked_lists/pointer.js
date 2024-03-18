@@ -1,4 +1,4 @@
-//ref: https://stackoverflow.com/a/12954568
+
 class LinkedList {
     constructor(value) {
       this.head = {

@@ -3,3 +3,7 @@
 ### With a few expectations when JS is more prefered.
 ### Or when a static language is required, I will also give some PHP code.
 ### C++ , Javascript.
+
+
+#### leetcode categories:
+https://zxi.mytechroad.com/blog/leetcode-problem-categories/
