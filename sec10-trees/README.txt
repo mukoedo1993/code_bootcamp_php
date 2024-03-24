@@ -15,6 +15,7 @@ Q968:
 
 
 BST Questions:
+(delete, insert or detect nodes)
 Q98
 Q700
 Q230
@@ -22,3 +23,12 @@ Q99
 Q108
 Q501
 Q450
+
+
+Trie questions:
+https://www.youtube.com/watch?v=f48wGD-MuQw
+question 208
+
+Binary Heap questions:
+
+Priority Queue questions:
