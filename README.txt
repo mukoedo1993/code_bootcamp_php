@@ -11,3 +11,6 @@ https://zxi.mytechroad.com/blog/leetcode-problem-categories/
 <a href="https://www.crackingthecodinginterview.com/">
 Cracking the Coding Interview
 </a>
+
+Later on I will try to use python only if php is too lengthy.
+I am not that smart... :(

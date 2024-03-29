@@ -10,3 +10,6 @@
 
 issue(2).js issue(2).php -> some problems with sorting
 bubble.php -> doing bubble sorts
+insertion.php -> doing insertion sorts
+selection.php -> doing selection sorts
+merge.py -> merge sort is too difficult, I will try to rewrite in python.
