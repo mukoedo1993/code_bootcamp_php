@@ -13,3 +13,6 @@ bubble.php -> doing bubble sorts
 insertion.php -> doing insertion sorts
 selection.php -> doing selection sorts
 merge.py -> merge sort is too difficult, I will try to rewrite in python.
+
+
+Remember all python files (mo4 xie3)!
