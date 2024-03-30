@@ -16,3 +16,12 @@ merge.py -> merge sort is too difficult, I will try to rewrite in python.
 quick.py -> quick sort
 
 Remember all python files (mo4 xie3)!
+
+Basic sorts:
+Selection Sort
+Insertion Sort
+Merge Sort
+
+More advanced sorts:
+Quick Sort
+Merge Sort
