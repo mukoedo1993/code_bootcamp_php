@@ -1,5 +1,4 @@
 #ref: https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort
-sqc = [2, 7, 1, -2, 56, 5, 3]
 def heapify(arr,end, i):
     l = 2 * i + 1
     r = 2 * (i + 1)
