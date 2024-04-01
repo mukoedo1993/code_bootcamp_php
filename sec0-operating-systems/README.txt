@@ -17,4 +17,4 @@ or
 https://www.youtube.com/watch?v=A_Z1lgZLSNc
 
 
-https://www.youtube.com/watch?v=prFEyaUEAMM&list=PLLuMmzMTgVK7XfFadhkPuF_ztvhxbriDr&index=17
+https://youtube.com/playlist?list=PLLuMmzMTgVK7XfFadhkPuF_ztvhxbriDr&feature=shared
