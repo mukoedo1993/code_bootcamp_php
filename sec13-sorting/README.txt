@@ -18,10 +18,16 @@ quick.py -> quick sort
 Remember all python files (mo4 xie3)!
 
 Basic sorts:
+Bubble Sort
 Selection Sort
 Insertion Sort
-Merge Sort
+
 
 More advanced sorts:
 Quick Sort
 Merge Sort
+Heap Sort
+
+Non-comaprsion sorts:
+Radix Sort
+Counting Sort

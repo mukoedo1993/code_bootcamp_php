@@ -1,0 +1,43 @@
+question 1: Sort 10 schools around your house by instance.
+Insertion sort.
+Because it is easy to implement and its space complexity is O(1).
+Insertion sort is a good way to implement on small dataset.
+
+
+question 2: eBay sorts listings by the current Bid amount:
+radix or counting sort
+Because prices on eBay could always be represented as integer(us cents)
+and usually less than 5000usd. So merge sort is a good choice.
+Quicksort is also good.
+
+Question 3: Sort scores on ESPN:
+Mergesort might be too much. 
+Because although the dataset's amount is large, but there are too many
+different kinds. For each kind, the size of data is still small.
+So we use quicksort. Because its space complexity will outperform
+
+Question 4: Massive database (can't fit all into memory)
+needs to sort through past year's user data
+Merge sort. Because we don't need to worry about memory, but we 
+need to worry about time complexity(for massive data).
+
+
+Question 5: Almost sorted Udemy review data needs to update
+and add 2 new reviews.
+Insertion sort. Becuase already sorted.
+
+Question 6: Temperature records for the past 50 years in Canada
+Quick Sort. Because temperature has decimal.
+And hopefully, it will save space complexity.
+
+Question 7: Large user name database needs to be sorted. Data is very
+random.
+Merge sort if we have enough memory and memory isn't too expensive.
+Or we use quicksort when we do not need to worry about worst case.
+Or quick sort to save our memory.
+
+Question 8: You want to teach sorting for the first time.
+Bubble Sort, Selection Sort. (For demo and educational purpose)
+
+
+
