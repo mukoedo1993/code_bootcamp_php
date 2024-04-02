@@ -1,0 +1,21 @@
+//Interview questions to choose between BFS and dfs
+
+1: If you know a solution is not far from the root of the tree:
+BFS. 
+Because it starts searching the closest nodes to the parent first.
+
+
+2: If the tree is very deep and solutions are rare:
+We will use BFS. 
+Reason: Because solutions are rare, it is most likely going to just repeat
+that step over and over and over.
+
+
+3: If the tree is very wide:
+DFS (BFS will need too much memory)
+
+4: If solutions are frequent but located deep in the tree:
+DFS. So hopefully we could find a quicker answer.
+
+5: Find the shortest path:
+BFS
