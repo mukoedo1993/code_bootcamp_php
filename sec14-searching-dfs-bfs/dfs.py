@@ -91,23 +91,6 @@ def DFS(root,result:list):
     
 
 
-# BFS traversal:
-
-def BFS(root, result:list):
-    if root is None:return None
-    result.append(root.key)
-    result1 = []
-
-    while(len(result) > 0):
-        cur_node = result.pop(0)
-        result1.append(cur_node)
-
-        if cur_node.left is not None:
-            result.append(cur_node.left)
-        if cur_node.right is not None:
-            result.append(cur_node.right)
-
-    return cur_node
 
         
         
@@ -128,7 +111,7 @@ root = insert(root, 14)
 root = insert(root, 4)
 
 temp = []
-BFS(root,temp)
+DFS(root,temp)
 print(temp)
 
 print("Inorder traversal: ", end=' ')
