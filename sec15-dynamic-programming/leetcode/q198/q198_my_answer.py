@@ -1,3 +1,8 @@
+'''
+recursion and DP.
+We need a helper_dict which has the 
+space complexity O(n)
+'''
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
