@@ -1,5 +1,6 @@
 '''
 Method 1: for question 98.
+limit the range
 '''
 # Definition for a binary tree node.
 # class TreeNode:
